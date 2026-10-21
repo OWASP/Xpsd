@@ -1,10 +1,10 @@
-# How Xpsd works
+# How OWASP Xpsd works
 
-Xpsd answers one question per vulnerability: can attacker-controlled input
+OWASP Xpsd answers one question per vulnerability: can attacker-controlled input
 reach this vulnerable code, in this repository?
 
 A scanner tells you a vulnerable package version is present. It cannot tell you
-whether the vulnerable function is ever called. Xpsd closes that gap by giving a
+whether the vulnerable function is ever called. OWASP Xpsd closes that gap by giving a
 language model a set of read-only code-analysis tools and making it produce a
 structured verdict backed by file and line evidence.
 
@@ -106,7 +106,7 @@ covers the threat model and that limitation.
 | [tools/web-fetcher](../tools/web-fetcher) | Renders advisory pages to markdown, validating every request and response address |
 | Copilot CLI | Talks to the model. Bundled and pinned, so the workflow's built-in token is the only credential needed |
 
-Xpsd registers the tool set with the model in-process and proxies each call to
+OWASP Xpsd registers the tool set with the model in-process and proxies each call to
 the MCP server, rather than asking the CLI to load an MCP server itself. That
 keeps the tool names the model sees identical in every environment.
 
