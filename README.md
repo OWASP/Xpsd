@@ -4,7 +4,7 @@
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?logo=discord&logoColor=white)](https://discord.gg/46ndug98k)
 
-# Xpsd
+# OWASP Xpsd
 
 One command that decides whether a reported vulnerability is actually
 reachable in a given source tree.
@@ -23,7 +23,7 @@ the affected component is built rather than vendored.
 
 The action runs on GitHub Copilot through the workflow's built-in
 `GITHUB_TOKEN`. Grant `copilot-requests: write` and there is nothing else to
-arrange. Xpsd usage bills to the organization along with the rest of your Copilot
+arrange. OWASP Xpsd usage bills to the organization along with the rest of your Copilot
 spend.
 
 ```yaml
@@ -82,7 +82,7 @@ jobs:
           category: xpsd-reachability
 ```
 
-Swap the scanner for whichever one you already run. Xpsd auto-detects the
+Swap the scanner for whichever one you already run. OWASP Xpsd auto-detects the
 report format:
 
 | Producer | Format |
@@ -125,7 +125,7 @@ those in as ground truth for the analysis.
 
 ## Docs
 
-- [docs/arch.md](docs/arch.md): How Xpsd works.
+- [docs/arch.md](docs/arch.md): How OWSP Xpsd works.
 - [docs/github-actions.md](docs/github-actions.md): workflow integration, every
   input and output, alert semantics, troubleshooting.
 - [docs/usage.md](docs/usage.md): the CLI, both modes, filtering, providers,
