@@ -61,7 +61,7 @@ jobs:
       - uses: anchore/scan-action@v6
         with: {sbom: sbom.cdx.json, output-format: json, output-file: scan.json, fail-build: false}
 
-      - uses: byteray-ai/xpsd@v1
+      - uses: OWASP/xpsd@v1
         id: xpsd
         with:
           scan-file: scan.json
