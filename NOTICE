@@ -7,7 +7,7 @@ Licensed under the Apache License, Version 2.0. See LICENSE for the full text.
 THIRD-PARTY COMPONENTS
 ================================================================================
 
-The published container image (ghcr.io/byteray-ai/xpsd) bundles the software
+The published container image (ghcr.io/owasp/xpsd) bundles the software
 below. Each component stays under its own license, and each ships its license
 text inside the image under /usr/local/lib/node_modules, the Python site
 packages, or /usr/share/doc.
