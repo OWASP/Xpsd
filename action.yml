@@ -147,6 +147,6 @@ outputs:
 runs:
   using: docker
   # Bump to the release version before tagging
-  image: docker://ghcr.io/byteray-ai/xpsd:1.0.0
+  image: docker://ghcr.io/owasp/xpsd:1.0.0
   env:
     GH_TOKEN: ${{ inputs.github-token }}
