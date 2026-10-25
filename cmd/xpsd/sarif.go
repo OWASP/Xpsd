@@ -126,7 +126,7 @@ type sarifRegion struct {
 
 const (
 	sarifSchemaURI = "https://json.schemastore.org/sarif-2.1.0.json"
-	toolInfoURI    = "https://github.com/byteray-ai/xpsd"
+	toolInfoURI    = "https://github.com/OWASP/Xpsd"
 	// Bound on alert message length; GitHub shows only the first sentence in the alert list.
 	maxMessageLen = 8000
 	// GitHub's documented limits for rule descriptions.
