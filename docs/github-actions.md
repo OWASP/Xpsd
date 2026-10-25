@@ -81,7 +81,7 @@ jobs:
           output-file: scan.json
           fail-build: false
 
-      - uses: byteray-ai/xpsd@v1
+      - uses: OWASP/Xpsd@v1
         id: xpsd
         with:
           scan-file: scan.json
@@ -132,13 +132,13 @@ Any of these produce a report Xpsd accepts; the format is auto-detected.
 ## Pinning a version
 
 ```yaml
-uses: byteray-ai/xpsd@v1        # latest 1.x, moves when a release is cut
-uses: byteray-ai/xpsd@v1.0.0    # exactly the code released as 1.0.0
+uses: OWASP/Xpsd@v1        # latest 1.x, moves when a release is cut
+uses: OWASP/Xpsd@v1.0.1    # exactly the code released as 1.0.1
 ```
 
 A version ref pins the code, not just the input list. `action.yml` at each
-release tag names that release's container image, so `@v1.0.0` keeps running
-1.0.0 after 1.1.0 ships. `@v1` follows releases.
+release tag names that release's container image, so `@v1.0.1` keeps running
+1.0.1 after 1.1.0 ships. `@v1` follows releases.
 
 ## Inputs
 
