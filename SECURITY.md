@@ -4,8 +4,8 @@
 
 Report security issues privately. Do not open a public issue.
 
-- Preferred: [open a private security advisory](https://github.com/ByteRay-AI/xpsd/security/advisories/new)
-- Email: security@byteray.co.uk
+- Preferred: [open a private security advisory](https://github.com/OWASP/xpsd/security/advisories/new)
+- Email: mehrun.parchebafieh@owasp.org
 
 Please include the version or commit, the command line or workflow inputs used,
 and enough detail to reproduce. We will acknowledge within 5 working days and
